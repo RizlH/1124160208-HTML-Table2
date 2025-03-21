@@ -8,9 +8,6 @@
         table {
             width: 100%;
         }
-        tr {
-            border-bottom: 1px solid #ddd;
-        }
         th {
             color: aliceblue;
             background-color: blue;
@@ -19,15 +16,15 @@
             text-align: left;
             padding: 8px;
         }
-        tr:nth-child(even){
+        tr:hover{
             background-color: aliceblue;
         }
     </style>
 </head>
 <body> 
     <h2>Zebra Stripes Table</h2>
-    <p>Border Bottom</p>
-    <table border="1px">
+    <p>Untuk tabel bergaris zebra, gunakan pemilih nth-child() dan tambahkan warna latar belakang ke semua baris tabel genap (atau ganjil):</p>
+    <table>
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
