@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Phase 2</title>
+    <style>
+        table {
+            width: 100%;
+        }
+        th {
+            color: aliceblue;
+            background-color: blue;
+        }
+        td{
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body> 
+    <h2>Zebra Stripes Table</h2>
+    <p>Untuk tabel bergaris zebra, gunakan pemilih nth-child() dan tambahkan warna latar belakang ke semua baris tabel genap (atau ganjil):</p>
+    <table border="1px">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Point</th>
+        </tr>
+        <tr>
+            <td>Alfan</td>
+            <td>Fadillah</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Raffi</td>
+            <td>Pasya</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Putri</td>
+            <td>Alaeda</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Dhani</td>
+            <td>Kusuma</td>
+            <td>$250</td>
+        </tr>
+    </table>
+</body>
